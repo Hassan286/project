@@ -1,0 +1,23 @@
+.arrival-container {
+  display: flex;
+  padding: 1rem 10rem;
+}
+.vertical-line {
+  border-left: 2px solid #8a33fd;
+  padding: 0 10px;
+}
+.arrival-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 2rem 0;
+  
+}
+.arrival-content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+

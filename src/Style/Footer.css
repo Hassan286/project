@@ -1,0 +1,41 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #f6f6f6;
+  background-color: #3c4242;
+  
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 1rem;
+}
+.footer-grid-heading {
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+.social-app {
+  display: flex;
+  justify-content: start;
+  padding-top: 1.5rem;
+  gap: 1rem;
+}
+.social-app img {
+  background-color: #f6f6f6;
+  padding: 5.02px 8px;
+  border-radius: 8.68px;
+}
+.footer-copyright {
+  background-color: #3c4242;
+  color: #ffff;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.footer-link-list li {
+  padding-top: 1rem;
+}
+.footer-link {
+  color: #f6f6f6;
+}

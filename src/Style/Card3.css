@@ -1,0 +1,35 @@
+.saving-card-container {
+  position: relative;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+}
+.saving-card-container img {
+  width: 380px;
+  height: auto;
+}
+.saving-text-container {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 12px;
+  max-width: 178px;
+  background-image: url(./../Assets//saving-arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 140px;
+  background-size: 20px;
+}
+.saving-text-container a {
+  padding-top: 80px;
+  font-weight: 600;
+}
+.saving-text-container p {
+  font-size: 12px;
+  font-weight: 600;
+}

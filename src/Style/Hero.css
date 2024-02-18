@@ -1,0 +1,7 @@
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem;
+}

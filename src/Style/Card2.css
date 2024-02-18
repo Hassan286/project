@@ -1,0 +1,22 @@
+.card-2-container img {
+  width: 230.81px;
+  height: auto;
+}
+.card-2-container h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 10px;
+  color: #3c4242;
+  background-image: url(./../Assets/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  background-position-y:18px ;
+  
+}
+.card-2-container p {
+  color: #7f7f7f;
+  font-size: 13.41px;
+  line-height: 27.93px;
+  font-weight: 500;
+}

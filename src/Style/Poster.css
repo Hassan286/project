@@ -1,0 +1,41 @@
+.poster-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .poster-card img {
+    max-width: 480px;
+    height: auto;
+    
+  }
+  .poster-content {
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+    max-width: 312px;
+    font-weight: 800;
+  }
+  .poster-content button {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #3C4242;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+   
+  }
+  .poster-content p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 200;
+    color: #ffffff;
+    
+  }
+  

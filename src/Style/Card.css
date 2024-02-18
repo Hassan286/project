@@ -1,0 +1,31 @@
+.card-container {
+  position: relative;
+  width: 500px;
+  font-family: sans-serif;
+}
+.card-container img {
+  width: 100%;
+  height: auto;
+}
+.text-container {
+  position: absolute;
+  bottom: 100px;
+  left: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 12px;
+  max-width: 189px;
+
+}
+
+.text-container a{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.text-container p{
+    font-size: 12px;
+    font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.card-container-22 {
+  position: relative;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.card-container-22 img {
+  width: 380px;
+  height: 350px;
+}
+.text-container-22 {
+  position: absolute;
+  top: 90px;
+  left: 250px;
+  color: #3c4242;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 12px;
+  max-width: 111px;
+}
+.text-container-22 a {
+  padding-top: 20px;
+  font-weight: 600;
+}
+.text-container-22 p {
+  font-size: 12px;
+  font-weight: 600;
+}
