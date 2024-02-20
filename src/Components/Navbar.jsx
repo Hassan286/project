@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./../Style/Navbar.css";
 import Logo from "./../Assets/Logo.png";
 import Heart from "./../Assets/heart-icon.png";
@@ -7,6 +8,12 @@ import Cart from "./../Assets/cart-icon.png";
 import Search from "./../Assets/search-icon.png";
 import Ham from "./../Assets/hamburger.svg";
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu1 = () => {
+    setMenuOpen(!menuOpen);
+    console.log("clicked");
+  };
   return (
     <>
       <div className="nav-content">
@@ -35,9 +42,21 @@ function Navbar() {
             <img className="icon" src={Cart} alt="" />
           </a>
         </div>
-        <button className='menu-button'>
+        {/* <button className='menu-button'>
         <a href="#"><img src={Ham}/></a>
-        </button>
+        </button> */}
+          <div>
+      <button className='menu-button' onClick={toggleMenu1}>
+        <img src={Ham} alt="Menu" />
+      </button>
+      <div className={`menu ${menuOpen ? 'active' : ''}`}>
+  <a href="Shop">Shop</a>
+  <a href="Men">Men</a>
+  <a href="Women">Women</a>
+  <a href="Combos">Combos</a>
+  <a href="Joggers">Joggers</a>
+</div>
+    </div>
       </div>
     </>
   );
