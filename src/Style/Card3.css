@@ -33,3 +33,22 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+@media (min-width: 250px) and (max-width: 390px) {
+  .saving-card-container img {
+    max-width: 300px;
+  }
+  .saving-text-container {
+    bottom: 90px;
+    left: 60px;
+    gap: 4px;
+    max-width: 18px;
+  }
+  .saving-card-container {
+    white-space: nowrap;
+  }
+  .saving-text-container a {
+    padding-top: 50px;
+  }
+}
+

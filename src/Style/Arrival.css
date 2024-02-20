@@ -1,23 +1,20 @@
 .arrival-container {
   display: flex;
   padding: 1rem 10rem;
+  white-space: nowrap;
 }
 .vertical-line {
   border-left: 2px solid #8a33fd;
   padding: 0 10px;
 }
-.arrival-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 2rem 0;
-  
+@media (min-width: 769px) and (max-width: 1024px) {
+  .arrival-container {
+    justify-content: start;
+  }
 }
-.arrival-content1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
+@media (max-width: 768px) {
+  .arrival-container {
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
 }
-

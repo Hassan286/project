@@ -39,3 +39,14 @@
 .footer-link {
   color: #f6f6f6;
 }
+@media (max-width:767px){
+  .footer-grid{
+    grid-template-columns: repeat(1, 1fr);
+    
+    text-align: center;
+  }
+  .social-app{
+    justify-content: center;
+  }
+  
+}

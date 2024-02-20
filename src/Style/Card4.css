@@ -28,3 +28,19 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+@media (min-width:250px) and (max-width:390px){
+  .card-container-22 img{
+    max-width: 300px;
+  }
+  .text-container-22 {
+    bottom: 90px;
+    left: 230px;
+    gap: 4px;
+  }
+  .text-container-22 a {
+    padding-top: 50px;
+    
+  }
+}
+

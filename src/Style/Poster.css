@@ -38,4 +38,19 @@
     color: #ffffff;
     
   }
-  
+  @media(min-width:768px) and (max-width:980px){
+    .poster-card img {
+      max-width: 370px;
+    }
+  }
+  @media only screen and (min-width: 250px) and (max-width: 549px) {
+    .poster-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    }
+    .poster-card img {
+      max-width: 340px;
+    }
+  }

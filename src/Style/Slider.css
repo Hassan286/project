@@ -77,7 +77,52 @@
    color: #3C4242;
    border-radius: 8px;
    cursor: pointer;
-   
-   
-   
+  }
+  @media (max-width:900px){
+    .carousel {
+      height: 100%;
+      
+    }
+    .slider-content{
+      gap: 12px;
+      padding-left: 120px;
+      padding-top:50px ;
+     
+      
+    }
+    .slider-content h2{
+      font-weight: 800;
+      font-size: 38px;
+      
+      
+    }
+    .slider-content p{
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .slider-content a{
+      padding: 6px 16px;
+      
+     }
+  }
+  @media (min-width:300px) and (max-width:590px){
+    .slider-content{
+      gap: 5px;
+      padding-left: 90px;
+      padding-top:30px ;
+      
+      max-width: 200px;
+    }
+    .slider-content h2{
+      font-size: 16px;
+     
+    }
+    .slider-content p{
+      font-size: 12px;
+    }
+    .slider-content a{
+      padding: 2px 10px;
+      font-size: 10px;
+      
+     }
   }

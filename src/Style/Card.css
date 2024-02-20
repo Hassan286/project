@@ -9,7 +9,7 @@
 }
 .text-container {
   position: absolute;
-  bottom: 100px;
+  bottom: 90px;
   left: 15px;
   color: white;
   display: flex;
@@ -28,4 +28,33 @@
 .text-container p{
     font-size: 12px;
     font-weight: 600;
+}
+@media (min-width:250px) and (max-width:510px){
+  .card-container {
+    max-width: 300px;
+  }
+  .text-container {
+    position: absolute;
+    bottom: 30px;
+    left: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+    max-width: 149px;
+  }
+  .text-container h2{
+    font-size: 18px;
+    
+
+}
+.text-container p{
+  font-size: 8px;
+}
+.text-container a{
+  font-size: 10px;
+}
+  
 }

@@ -20,3 +20,10 @@
   line-height: 27.93px;
   font-weight: 500;
 }
+@media (min-width:769px){
+  .card-2-container img {
+    max-width: 180px;
+    
+  }
+  
+}

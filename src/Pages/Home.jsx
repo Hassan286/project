@@ -27,6 +27,7 @@ import Footer from "./../Components/Footer.jsx";
 import men9 from "./../Assets/men-9.png";
 import men10 from "./../Assets/men-10.png";
 import Card4 from './../Components/Card4.jsx';
+import "../Pages/Home.css"
 
 function Home() {
   return (
@@ -35,15 +36,20 @@ function Home() {
       <Slider />
       <Hero />
       <Arrival title="New Arrival" />
-      <div className="arrival-content">
+      <div className="card_container">
+        <div className="first_container">
         <Card2  imagePath={arrival} title="Knitted Joggers" />
         <Card2 imagePath={arrival2} title="Full Sleeve" />
+        </div>
+        <div className="second_container">
         <Card2 imagePath={arrival3} title="Active T-Shirts" />
         <Card2 imagePath={arrival4} title="Urban Shirts" />
+        </div>
       </div>
 
       <Arrival title="Big Saving Zone" />
-      <div className="arrival-content">
+      <div className="vcard_container">
+       <div className="vcard_first">
         <Card3
           imagePath={saving}
           header="Hawaiian Shirts"
@@ -59,6 +65,9 @@ function Home() {
           button="SHOP NOW"
           
         />
+        </div>
+      
+        <div className="second_container">
         <Card4
           imagePath={saving2}
           header="Cargo Joggers"
@@ -66,8 +75,9 @@ function Home() {
           discount="UPTO 50% OFF"
           button="SHOP NOW"
         />
+        </div>
       </div>
-      <div className="arrival-content">
+      <div className="card_container">
         <Card4 imagePath={men10}
         header="Cargo Joggers"
         para="Move with style & comfort"
@@ -82,7 +92,7 @@ function Home() {
         />
       </div>
 
-      <div className="arrival-content1">
+        <div className="card_container">
         <Poster
           imagePath={Poster1}
           title="WE MADE YOUR EVERDAY FASHION BETTER"
@@ -92,23 +102,47 @@ function Home() {
 
         <Poster imagePath={Poster2} />
       </div>
+      
       <Arrival title="Category for Men" />
-      <div className="arrival-content">
+      <div className="card_container">
+      <div className="first_container">
         <Card2 imagePath={men1} title="Shirts" para="Explore Now!" />
         <Card2 imagePath={men2} title="Printed T-Shirts" para="Explore Now!" />
+        </div>
+        <div className="second_container">
         <Card2 imagePath={men3} title="Plain T-Shirts" para="Explore Now!" />
         <Card2 imagePath={men4} title="Polo Shirts" para="Explore Now!" />
-      </div>
-      <div className="arrival-content">
+        </div>
+        </div>
+
+
+      {/* responsive task */}
+      <div className="card_container">
+      <div className="first_container">
         <Card2
           imagePath={men5}
           title="Hoodies & Sweetshirt"
           para="Explore Now!"
         />
         <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+        </div>
+        <div className="second_container">
+        <Card2
+         imagePath={men8} title="Activewear" para="Explore Now!"
+        />
+        <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+        </div>
+        {/* <div className="secound_container">
         <Card2 imagePath={men8} title="Activewear" para="Explore Now!" />
         <Card2 imagePath={men7} title="Boxers" para="Explore Now!" />
+        </div> */}
       </div>
+
+
+
+
+
+
 
       <Footer />
     </>
