@@ -1,7 +1,6 @@
 import React from "react";
 import "./../Style/Card2.css";
 function Card2(props) {
-  
   return (
     <>
       <div className="card-2-container">

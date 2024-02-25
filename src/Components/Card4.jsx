@@ -1,11 +1,10 @@
-import React from 'react'
-import './../Style/Card4.css'
+import React from "react";
+import "./../Style/Card4.css";
 import savingarrow from "./../Assets/saving-arrow.png";
-
 function Card4(props) {
   return (
     <>
-    <div className="card-container-22">
+      <div className="card-container-22">
         <img src={props.imagePath} />
         <div className="text-container-22">
           <h2>{props.header}</h2>
@@ -15,10 +14,8 @@ function Card4(props) {
           <a>{props.button}</a>
         </div>
       </div>
-    
-    
     </>
-  )
+  );
 }
 
-export default Card4
+export default Card4;

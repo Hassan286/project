@@ -1,9 +1,7 @@
 import React from "react";
 import "./../Style/Card3.css";
 import savingarrow from "./../Assets/saving-arrow.png";
-
 function Card3(props) {
-
   return (
     <>
       <div className="saving-card-container">

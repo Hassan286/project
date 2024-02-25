@@ -1,0 +1,88 @@
+.cart-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem 2rem;
+}
+.title {
+  display: flex;
+  gap: 12px;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  background-color: #3c4242;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.cart-title {
+  display: flex;
+  gap: 120px;
+}
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.cart-main {
+  display: flex;
+  gap: 160px;
+}
+.total-container {
+  display: flex;
+  padding: 2rem 2rem;
+  background-color: #f6f6f6;
+}
+.total-left {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  flex-basis: 50%;
+}
+.total-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: end;
+  gap: 10px;
+}
+.total-title {
+  display: flex;
+  gap: 40px;
+}
+.total-right button{
+  background-color: #8A33FD;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+.coupon-inbox input{
+  border: 1px solid #BEBCBD;
+  padding: 0.575rem 1.8rem;
+  border-radius: 8px;
+  border-top-right-radius:0px ;
+  border-bottom-right-radius:0px ;
+  outline: none;
+  text-align: start;
+
+}
+.coupon-inbox a{
+  background-color: #8A33FD;
+  color: #FFFFFF;
+  padding: 0.579rem 1.8rem;
+  border: none;
+  border-radius: 8px;
+  border-top-left-radius:0px ;
+  border-bottom-left-radius:0px ;
+
+}
+.total-left button{
+  padding: 0.579rem 1.8rem;
+  border-radius: 8px;
+  border: 1px solid #BEBCBD;
+}

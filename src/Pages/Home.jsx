@@ -23,128 +23,160 @@ import men7 from "./../Assets/men-7.png";
 import men8 from "./../Assets/men-8.png";
 import Poster1 from "./../Assets/poster-1.png";
 import Poster2 from "./../Assets/poster-2.png";
-import Footer from "./../Components/Footer.jsx";
 import men9 from "./../Assets/men-9.png";
 import men10 from "./../Assets/men-10.png";
-import Card4 from './../Components/Card4.jsx';
-import "../Pages/Home.css"
+import Card4 from "./../Components/Card4.jsx";
+import "../Pages/Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <Navbar />
       <Slider />
-      <Hero />
+      <Link to="/product">
+        <Hero />
+      </Link>
+
       <Arrival title="New Arrival" />
       <div className="card_container">
         <div className="first_container">
-        <Card2  imagePath={arrival} title="Knitted Joggers" />
-        <Card2 imagePath={arrival2} title="Full Sleeve" />
+          <Link to="/product">
+            <Card2 imagePath={arrival} title="Knitted Joggers" />
+          </Link>
+          <Link to="/product">
+            <Card2 imagePath={arrival2} title="Full Sleeve" />
+          </Link>
         </div>
         <div className="second_container">
-        <Card2 imagePath={arrival3} title="Active T-Shirts" />
-        <Card2 imagePath={arrival4} title="Urban Shirts" />
+          <Link to="/product">
+            <Card2 imagePath={arrival3} title="Active T-Shirts" />
+          </Link>
+          <Link to="/product">
+            <Card2 imagePath={arrival4} title="Urban Shirts" />
+          </Link>
         </div>
       </div>
 
       <Arrival title="Big Saving Zone" />
       <div className="vcard_container">
-       <div className="vcard_first">
-        <Card3
-          imagePath={saving}
-          header="Hawaiian Shirts"
-          para="Dress up in summer vibe"
-          discount="UPTO 50% OFF"
-          button="SHOP NOW"
-        />
-        <Card4
-          imagePath={saving3}
-          header="Printed T-Shirt"
-          para="New Designs Every Week"
-          discount="UPTO 40% OFF"
-          button="SHOP NOW"
-          
-        />
+        <div className="vcard_first">
+          <Link to="/product">
+            <Card3
+              imagePath={saving}
+              header="Hawaiian Shirts"
+              para="Dress up in summer vibe"
+              discount="UPTO 50% OFF"
+              button="SHOP NOW"
+            />
+          </Link>
+          <Link to="/product">
+            <Card4
+              imagePath={saving3}
+              header="Printed T-Shirt"
+              para="New Designs Every Week"
+              discount="UPTO 40% OFF"
+              button="SHOP NOW"
+            />
+          </Link>
         </div>
-      
+
         <div className="second_container">
-        <Card4
-          imagePath={saving2}
-          header="Cargo Joggers"
-          para="Move with style & comfort"
-          discount="UPTO 50% OFF"
-          button="SHOP NOW"
-        />
+          <Link to="/product">
+            <Card4
+              imagePath={saving2}
+              header="Cargo Joggers"
+              para="Move with style & comfort"
+              discount="UPTO 50% OFF"
+              button="SHOP NOW"
+            />
+          </Link>
         </div>
       </div>
       <div className="card_container">
-        <Card4 imagePath={men10}
-        header="Cargo Joggers"
-        para="Move with style & comfort"
-        discount="UPTO 50% OFF"
-        button="SHOP NOW"
-        />
-        <Card4 imagePath={men9}
-        header="Urban Shirts"
-        para="Live in Comfort"
-        discount="FLAT 60% OFF"
-        button="SHOP NOW"
-        />
+        <Link to="/product">
+          <Card4
+            imagePath={men10}
+            header="Cargo Joggers"
+            para="Move with style & comfort"
+            discount="UPTO 50% OFF"
+            button="SHOP NOW"
+          />
+        </Link>
+        <Link to="/product">
+          <Card4
+            imagePath={men9}
+            header="Urban Shirts"
+            para="Live in Comfort"
+            discount="FLAT 60% OFF"
+            button="SHOP NOW"
+          />
+        </Link>
       </div>
 
-        <div className="card_container">
+      <div className="card_container">
+      <Link to="/product">
         <Poster
           imagePath={Poster1}
           title="WE MADE YOUR EVERDAY FASHION BETTER"
           description="In our journey to improve everyday fashion, euphoria presents EVERYDAY wear range - Comfortable & Affordable fashion 24/7"
           button="Shop Now"
         />
+         </Link>
 
         <Poster imagePath={Poster2} />
       </div>
-      
+
       <Arrival title="Category for Men" />
       <div className="card_container">
-      <div className="first_container">
-        <Card2 imagePath={men1} title="Shirts" para="Explore Now!" />
-        <Card2 imagePath={men2} title="Printed T-Shirts" para="Explore Now!" />
+        <div className="first_container">
+          <Link to="/product">
+            <Card2 imagePath={men1} title="Shirts" para="Explore Now!" />
+          </Link>
+          <Link to="/product">
+            <Card2
+              imagePath={men2}
+              title="Printed T-Shirts"
+              para="Explore Now!"
+            />
+          </Link>
         </div>
         <div className="second_container">
-        <Card2 imagePath={men3} title="Plain T-Shirts" para="Explore Now!" />
-        <Card2 imagePath={men4} title="Polo Shirts" para="Explore Now!" />
+          <Link to="/product">
+            <Card2
+              imagePath={men3}
+              title="Plain T-Shirts"
+              para="Explore Now!"
+            />
+          </Link>
+          <Link to="/product">
+            <Card2 imagePath={men4} title="Polo Shirts" para="Explore Now!" />
+          </Link>
         </div>
-        </div>
-
+      </div>
 
       {/* responsive task */}
       <div className="card_container">
-      <div className="first_container">
-        <Card2
-          imagePath={men5}
-          title="Hoodies & Sweetshirt"
-          para="Explore Now!"
-        />
-        <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+        <div className="first_container">
+        <Link to="/product">
+          <Card2
+            imagePath={men5}
+            title="Hoodies & Sweetshirt"
+            para="Explore Now!"
+          />
+          </Link>
+          <Link to="/product">
+          <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+          </Link>
         </div>
         <div className="second_container">
-        <Card2
-         imagePath={men8} title="Activewear" para="Explore Now!"
-        />
-        <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+        <Link to="/product">
+          <Card2 imagePath={men8} title="Activewear" para="Explore Now!" />
+          </Link>
+          <Link to="/product">
+          <Card2 imagePath={men6} title="Jeans" para="Explore Now!" />
+          </Link>
         </div>
-        {/* <div className="secound_container">
-        <Card2 imagePath={men8} title="Activewear" para="Explore Now!" />
-        <Card2 imagePath={men7} title="Boxers" para="Explore Now!" />
-        </div> */}
       </div>
-
-
-
-
-
-
-
-      <Footer />
     </>
   );
 }

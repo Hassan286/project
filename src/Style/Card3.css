@@ -33,6 +33,15 @@
   font-size: 12px;
   font-weight: 600;
 }
+.saving-card-container button{
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+ 
+}
 
 @media (min-width: 250px) and (max-width: 390px) {
   .saving-card-container img {

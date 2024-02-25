@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Slider1 from "./../Assets/slider.jpg";
 import Slider11 from "./../Assets/slider-arrow-11.png";
 import Slider22 from "./../Assets/slider-arrow-22.png";
+import { Link } from "react-router-dom";
+  
 
 import "./../Style/Slider.css";
 const slides = [
@@ -38,7 +40,8 @@ const Slider = () => {
           <p>T-Shirt / Tops</p>
           <h2>Summer Value Pack</h2>
           <p>Cool / colorful / comfy</p>
-          <a href="">Shop Now</a>
+          <Link to="/product">  <a href="">Shop Now</a></Link>
+
         </div>
       </div>
       <button className="prev-button" onClick={prevSlide}>
